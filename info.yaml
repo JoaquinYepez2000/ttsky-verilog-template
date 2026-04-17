@@ -8,16 +8,16 @@ project:
 
   tiles: "1x1"
 
-  top_module:  "tt_um_example"  //Usualmente el que tenemos en el nombre del modulo del "project.v"
+  top_module:  "tt_um_example"
 
   source_files:
     - "project.v"
-    - "counter.v"
+    - "contador.v"
 
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
+  ui[0]: "clk (manual)"
+  ui[1]: "reset"
   ui[2]: ""
   ui[3]: ""
   ui[4]: ""
